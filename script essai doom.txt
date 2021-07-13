@@ -1,0 +1,55 @@
+let carts = document.querySelectorAll('add-cart');
+let products = [
+    {
+        name: 'Pc de Bureau Gamer Scorpio',
+        tag: 'Scorpio',
+        price: 1079,
+        inCart: 0
+    },
+    {
+        name: 'Pc de Bureau PC DE BUREAU GAMER TUNEZ',
+        tag: 'TUNEZ',
+        price: 4459,
+        inCart: 0
+    },
+    {
+        name: 'PC PORTABLE GAMER ASUS ROG ZEPHYRUS',
+        tag: 'ZEPHYRUS',
+        price: 10559,
+        inCart: 0
+    },
+    {
+        name: 'PC PORTABLE HP OMEN 15',
+        tag: 'OMEN',
+        price: 5799,
+        inCart: 0
+    }
+]
+
+for (let i=0; i<cartNumbers.length; i++) {
+    carts[i].addEventListner('click',()=>{
+        cartNumbers();
+    })
+}
+
+function onLocalCartNumbers(){
+
+    let  productNumbers = localStorage.getItem('cartNumbers');
+    if(productNumbers) {
+        document.querySelector('a').textContent = productNumbers+1;
+    }
+}
+
+function cartNumbers() {
+    let productNumbers = localStorage.getItem('cartNumbers');
+    productNumbers = parseInt(productNumbers);
+    if (productNumbers) {
+    localStorage.setItem('cartNumbers',productNumbers+1);
+    document.querySelector('.a').textContent = productNumbers+1;
+} 
+else {
+    localStorage.setItem('cartNumbers',1);
+    document.querySelector('.a').textContent = 1;
+} 
+}
+onLocalCartNumbers();

@@ -1,0 +1,9 @@
+
+
+
+<div class="yam">
+<button onclick="window.had.value--">−</button>
+<input type="text" name="" id="had" value="0" pattern=[0-9]>
+<button onclick="window.had.value++">+</button>
+</div>   
+        

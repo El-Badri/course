@@ -1,0 +1,30 @@
+
+Instructions
+
+Adjust the quantity of each item through  “+” and “-” buttons.
+Like items through a clickable heart-shaped button that will change color accordingly.
+
+
+See the total price adjusted according to quantity and deletions.
+
+Delete items from the cart.
+
+
+function CalculateItemsValue() {
+    var total = 0;
+    for (i=1; i<=total_items; i++) {
+         
+        itemID = document.getElementById("had"+i);
+        if (typeof itemID === 'undefined' || itemID === null) {
+            alert("No such item - " + "had"+i);
+        } else {
+            total = total + parseInt(itemID.value) * parseInt(itemID.getAttribute("data-price"));
+        }
+         
+    }
+    document.getElementById("ItemsTotal").innerHTML = "$" + total;
+}
+
+          <input type="text" name="" id="had" value="0" size="3" data-price="100" />
+
+  <input name="qnt_1" type="text" id="qnt_1" value="0" size="3" data-price="100">

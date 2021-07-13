@@ -1,0 +1,24 @@
+
+$ (".add-to-Cart").click(function (event) {
+    event.preventDefault();
+    var name = $(this).attr("h2");
+    var price = Number($(this).attr("h3"));
+    addItemToCart(name, price, 1);
+    displayCart();
+} );
+
+function displayCart() {
+    var cartArray = listCart();
+    var output = "";
+    for (var i in cartArray) {
+        output += "<p>"+cartArray[i].name+" "+cartArray[i].count+"</p>"
+    }
+    $("#show-cart").html(output)
+}
+
+
+
+let add = document.getElementsByClassName("add-to-cart")
+var name = $(this).attr("h2");
+console.log(h2)
+    var price = Number($(this).attr("h3"));

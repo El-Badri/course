@@ -1,0 +1,1 @@
+web,PDF,CSS,JavaScript,navigateur,balise,fichier,langage,page,syntaxe,XHTML,XML,Java,code,format,standard,informatique,PHP,balisage,div,http,page web,wiki,site,World Wide Web,lien,serveur,applet,attribut,canvas,document,Hypertext Markup Language,logiciel,microformat,programmation descriptive,python,Ruby,scriptlet,sémantique,Silverlight,utilisateur

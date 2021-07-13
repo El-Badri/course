@@ -1,0 +1,54 @@
+## fonction java
+
+1=
+function minMax(arr)
+{ return[Math.min(...arr),Math.max(...arr)] }
+
+function minMax(arr)
+{ return[Math.min(...arr),Math.max(...arr)] }
+
+
+2=
+function isSameNum(num1, num2) {
+if (num1===num2)
+{return true;}
+else
+{return false}
+}
+
+3=
+const GUEST_LIST = {
+	Randy: "Germany",
+	Karla: "France",
+	Wendy: "Japan",
+	Norman: "England",
+	Sam: "Argentina"
+}
+
+function greeting(name) {
+	return GUEST_LIST[name]?`Hi! I'm ${name}, and I'm from ${GUEST_LIST[name]}.`:"Hi! I'm a guest."
+}
+
+4=
+function filterArray(arr) {
+	return arr.filter((a)=>Number.isInteger(a));
+}
+
+5=
+function countTrue(arr) {
+return counttrue = arr.filter((value) => value).length;
+}
+
+6-
+const afterNYears = (list, n) => {
+	for (let person in list) list[person] += Math.abs(n);
+	return list;
+}
+
+
+7-
+function inkLevels(inks) {
+	const { cyan, magenta, yellow } = inks;
+	let min = Math.min(cyan, magenta, yellow);
+	return min;
+}

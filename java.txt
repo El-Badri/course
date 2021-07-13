@@ -1,0 +1,102 @@
+Each programming language has its own vocabulary (keywords that each play a specific role) and grammar (rules defining how to write programs in that language).
+
+six primitive types:
+
+boolean (true or false)
+number (including integers like 1, -2, and floating point numbers like 3.14, 2e-3)
+string ( Strings are used for storing text. Strings must be inside of either double or single quotes.)
+null (null has one value: null. It is explicitly nothing.)
+undefined (A variable that has no value is undefined)
+Symbol (We’ll get to this later on in the course)
+
+
+Objects can be: “Object literals”, “Arrays”, “Function”, “RegEx”, “Dates”...
+
+
+NaN:
+The division 0 / 0 or using mismatching types creates a special number called not a number or NaN.
+
+There are only six falsy values in JavaScript:
+undefined, null, NaN(Not A Number), 0, ""(empty string), and false, of course.
+
+Joining multiple strings together is known as concatenation.
+
+A function is basically a piece of code that can be reused without having to write it again and again.
+
+
+If you don’t like math, think of a function like a vending machine:
+ You insert coins and a number, and it gives you cold soda.
+
+The critical difference between function declarations and function expressions lies in how the browser loads them into the 
+execution context. 
+Function declarations load before any code is executed. 
+Function expressions load only when the interpreter reaches that line of code. So if you try to call a function 
+expression before it's loaded, you'll get an error! If you call a function declaration instead, it'll always work, because no code can be called until all declarations 
+are loaded.
+
+The real interesting part is that we can write our own functions, (also called 'User Defined Functions' or 'UDF'.) to perform specialized tasks.
+
+
+Parameters are variables listed as a part of the function definition.
+Arguments are values passed to the function when it is invoked.
+
+
+Function parameters are the names listed in the function definition.
+Function arguments are the real values passed to (and received by) the function at the execution
+.
+
+in software development, there are three types of control structures:
+
+Sequence: writing instructions one after the other.
+Selection: either execute one set of instructions or another.
+Iteration: execute a set of instructions for a finite or infinite number of times.
+As we already know how to sequence instructions one after another, it is time to learn about selection and iteration
+
+The control structures within JavaScript allow the program flow to change within a unit of code or 
+function
+These statements can determine whether or not given statements are executed, (the selection)-and provide the basis for the 
+repeated execution of a block of code(iteration)
+
+if(EarthIsRound){ return truth; } // truth is : ==> Yep, this is how you write conditions in JS
+
+We mainly use do-while loops for input validation
+
+## Even Though do while loop and While loop look similar, they differ in their execution: The 
+while loop tests the condition at the beginning of the loop, and if the condition is True, statements inside the loop will 
+execute.
+ It means that this loop executes the code block only if the condition is True At the end of the loop, the 
+do-while loop tests the condition. So, it executes the statements in the code block at least once even if the 
+condition Fails.
+
+
+An array is iterated using: for (let el of a){ //do stuff with el }
+An object being used as an associative array is iterated using: for(let key in o){ //do stuff with o[key] }
+
+
+# break exits the closest loop it is in, and continues with the next command.
+# continue skips and jumps out from the loop body, and jumps back to the condition of the loop.
+
+# The continue statement terminates execution of the statements in the current iteration of the labeled loop, and continues ts execution with the next iteration.
+
+# While The break statement terminates the current loop, switch, or label statement and transfers program control to the statement following the terminated statement.
+
+.push adds elements to the end of the array.
+.unshift adds elements to the beginning of the array.
+.pop removes the last element from the array and returns it.
+.shift removes the first element from the array and returns it
+
+
+.# A property generally refers to the characteristic of an object.
+;# A method is a function that is the value of an object property
+==> a property as a noun, and a method as a verb.
+
+
+# The delete operator deletes both the value of the property and the property itself.
+ After deletion, the property cannot be used before it is added back again.
+The delete operator is designed to be used on object properties. 
+It has no effect on variables or functions.Note: The delete operator should not be used on 
+predefined JavaScript object properties because it can crash your application.
+
+
+
+

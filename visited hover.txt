@@ -1,0 +1,19 @@
+   /* unvisited link */
+      a:link {........;
+    }
+
+      /* visited link */
+      a:visited {
+        ........; }
+
+      /* mouse over element */
+      div:hover {
+          color: tomato;
+      } 
+
+      /* selected link */
+      a:active{
+          color: #0000FF
+      }
+current icon
+wait icon

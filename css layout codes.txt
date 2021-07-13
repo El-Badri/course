@@ -1,0 +1,49 @@
+css layout codes
+
+
+display: flex;
+justify-content: center;   
+flex-direction: row;
+justify-content: space-between;
+justify-content: center;
+justify-content: flex-start;
+
+align-items:
+    center;
+    flex-end/start
+
+in the context of the CSS Grid layout, 
+a grid container is a parent that contains all items within it.
+ The grid container defines the initial placement of the grid lines, 
+both vertical and horizontal.
+
+
+align-content
+
+
+AWSOME-FONT
+ to display any awsomefont must past this link in the head part :
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+BOOTSTRAP
+Snippeting is basically copying code from another source and pasting it to your code
+   LINK IN HEAD PART :
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+Bootstrap grid system
+
+There are four types of resolutions (or classes) in Bootstrap:
+xs (for phones - screens less than 768px wide)
+sm (for tablets - screens equal to or greater than 768px wide)
+md (for small laptops - screens equal to or greater than 992px wide)
+lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+
+
+
+
+
+
+
+
+
+
